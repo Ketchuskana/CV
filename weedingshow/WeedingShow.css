@@ -1,0 +1,115 @@
+body{
+	background-color:  #fbfbfb;
+}
+
+
+header{
+	color:  #a0384f;
+	text-align: left;
+	font-size:  60px;
+	font-family: 'Vidaloka', serif;
+	margin: 50px;
+	margin-left: 300px;
+}
+
+h1{
+	color:  #a0384f;
+	text-align: left;
+	font-size:  40px;
+	font-family: 'Vidaloka', serif;	
+}
+
+main{
+	background-color: #f1eee9;
+	height:800px;
+}
+
+img{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+.image{
+	text-align: center;
+	background-image: url("fleurs.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color:  #fbfbfb;
+	padding: 10px 10px 10px 10px;
+	margin-top: 40px;
+}
+
+.see{
+	color: #63cebc;
+	font-size: 20px;
+	font-family: 'Playfair Display', serif;
+	border-top: 1px solid #63cebc;
+	border-bottom: 1px solid #63cebc;	
+}
+
+.see:hover{
+	color: #a0384f;
+}
+
+h2{
+	color:  #a0384f;
+	font-family: 'Vidaloka', serif;
+}
+
+
+.paragraphe{
+	font-size: 13px;
+	font-family: 'Playfair Display', serif;
+}
+
+.para{
+	margin-left: 310px;
+	margin-top:15px;
+	margin-right:650px;
+	font-size:  13px;	
+}
+
+.bas{
+	background-image:url("my-story.jpg");
+	background-repeat: no-repeat;
+	background-size: 665px;
+	background-position: center;
+}
+
+.titre{
+	margin-left: 310px;
+	margin-right: 650px;
+	border-bottom: 2px solid  #fbfbfb;
+}
+
+.foot1{
+	color: #a0384f;
+	text-align: center;
+	display: block;
+	justify-content: center; 
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+}
+
+.foot1 p, .foot1 div {
+	display: inline;
+	text-indent: 10px;
+}
+
+.foot2{
+	font-size: 13px;
+	text-align: center;
+	color: #63cebc;
+}
+
+.ok {
+	color: #63cebc;
+	font-size: 40px;
+}
+
+.imageContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
